@@ -32,13 +32,6 @@ targets:
     dependencies:
       - target: ClockWidget
         embed: true
-  ClockWidget:
-    type: app-extension
-    platform: iOS
-    sources:
-      - path: FocusWidgetBundle.swift
-      - path: FocusLiveActivity.swift
-      - path: FocusAttributes.swift
     info:
       path: WidgetInfo.plist
       properties:
